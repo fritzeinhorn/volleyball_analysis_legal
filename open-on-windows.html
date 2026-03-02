@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open on Windows – VolleyRecon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Overview</a>
+        <main>
+            <h1>🪟 Opening VolleyRecon on Windows</h1>
+            <p>
+                VolleyRecon is not yet distributed through the Microsoft Store.
+                The app is delivered as a direct download from iCloud Drive.
+                Because Windows checks that apps come from known publishers, you
+                need to follow a few extra steps to open it for the first time.
+            </p>
+
+            <!-- Step 1 – Download -->
+            <section class="section">
+                <h2>Step 1 – Download the App</h2>
+                <div class="highlight-box">
+                    <p>
+                        Download the Windows version of VolleyRecon from the link below:
+                    </p>
+                    <a href="https://www.icloud.com/iclouddrive/04fDxVizC_ohcAHHgKYzx1OmQ#Volleyball_Games"
+                       target="_blank" rel="noopener noreferrer" class="back-link"
+                       style="margin-top: 12px; display: inline-block;">
+                        ☁️ Open iCloud Download Page
+                    </a>
+                </div>
+                <ol>
+                    <li>Click the link above to open the iCloud Drive page in your browser.
+                        You can use any modern browser (Edge, Chrome, Firefox, etc.).</li>
+                    <li>Click the <strong>Download</strong> button (cloud icon ↓) next to the Windows app file.</li>
+                    <li>Your browser may ask whether you want to keep the file — click <strong>Keep</strong> or
+                        <strong>Keep anyway</strong>.</li>
+                    <li>Once the download is complete, open your <strong>Downloads</strong> folder in File Explorer.</li>
+                    <li>If the file is a <code>.zip</code> archive, right-click it and choose
+                        <strong>Extract All…</strong> to unzip it before running the installer or executable.</li>
+                </ol>
+            </section>
+
+            <!-- Step 2 – SmartScreen warning -->
+            <section class="section">
+                <h2>Step 2 – Bypass the Windows SmartScreen Warning</h2>
+                <p>
+                    When you run the installer or the <code>.exe</code> file, Windows SmartScreen may display
+                    a blue dialog that says:
+                </p>
+                <div class="highlight-box">
+                    <p>
+                        <em>"Windows protected your PC — Microsoft Defender SmartScreen prevented an unrecognized
+                        app from starting. Running this app might put your PC at risk."</em>
+                    </p>
+                </div>
+                <p>This is expected for apps not yet listed in the Microsoft Store or signed with an Extended
+                Validation certificate. Follow the steps below to open the app anyway.</p>
+
+                <h3>Bypassing SmartScreen</h3>
+                <ol>
+                    <li>Double-click the installer or the <code>.exe</code> file. The SmartScreen dialog will appear.</li>
+                    <li>Click <strong>More info</strong> (the small link in the lower part of the dialog).</li>
+                    <li>A <strong>Run anyway</strong> button will appear at the bottom of the dialog.</li>
+                    <li>Click <strong>Run anyway</strong>.</li>
+                    <li>If a User Account Control (UAC) prompt appears asking
+                        <em>"Do you want to allow this app to make changes to your device?"</em>,
+                        click <strong>Yes</strong>.</li>
+                    <li>VolleyRecon will now install or launch normally.</li>
+                </ol>
+
+                <div class="highlight-box">
+                    <p>
+                        <strong>Note:</strong> SmartScreen only shows this warning until enough users have run the
+                        app and Microsoft has built up a reputation for it. Once VolleyRecon is available in
+                        the Microsoft Store, this warning will no longer appear.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Step 3 – First launch -->
+            <section class="section">
+                <h2>Step 3 – First Launch</h2>
+                <p>
+                    After completing the steps above, VolleyRecon will open normally.
+                    On all subsequent launches you can simply double-click the app — no extra steps are needed.
+                </p>
+                <div class="highlight-box">
+                    <p><strong>Tip:</strong> If Windows Defender Firewall shows a network access prompt, you
+                    can safely click <strong>Allow access</strong> or <strong>Cancel</strong> — VolleyRecon does
+                    not require internet access to function. All data is processed locally on your device.</p>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <h2>Why is this necessary?</h2>
+                <p>
+                    Windows SmartScreen warns users about apps that do not yet have a code-signing certificate
+                    from a trusted Certificate Authority or have not yet built up a reputation with Microsoft.
+                    Obtaining a recognized code-signing certificate and publishing to the Microsoft Store will
+                    remove this warning in a future release.
+                </p>
+                <p>
+                    The app itself is safe — it processes all data locally on your device and does not send
+                    any information to external servers.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Florian Krage-Brewitz. All rights reserved.</p>
+            <p class="small">Last updated: March 2026</p>
+        </footer>
+    </div>
+</body>
+</html>

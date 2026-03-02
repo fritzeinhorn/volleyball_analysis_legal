@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open on macOS – VolleyRecon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Overview</a>
+        <main>
+            <h1>🍎 Opening VolleyRecon on macOS</h1>
+            <p>
+                VolleyRecon is not yet distributed through the Mac App Store.
+                The app is delivered as a direct download from iCloud Drive.
+                Because macOS checks that apps come from identified developers, you
+                need to follow a few extra steps to open it for the first time.
+            </p>
+
+            <!-- Step 1 – Download -->
+            <section class="section">
+                <h2>Step 1 – Download the App</h2>
+                <div class="highlight-box">
+                    <p>
+                        Download the macOS version of VolleyRecon from the link below:
+                    </p>
+                    <a href="https://www.icloud.com/iclouddrive/04fDxVizC_ohcAHHgKYzx1OmQ#Volleyball_Games"
+                       target="_blank" rel="noopener noreferrer" class="back-link"
+                       style="margin-top: 12px; display: inline-block;">
+                        ☁️ Open iCloud Download Page
+                    </a>
+                </div>
+                <ol>
+                    <li>Click the link above to open the iCloud Drive page in your browser.</li>
+                    <li>Click the <strong>Download</strong> button (cloud icon ↓) next to the macOS app file.</li>
+                    <li>Once the download is complete, open your <strong>Downloads</strong> folder in Finder.</li>
+                    <li>If the file is a <code>.zip</code> archive, double-click it to extract the <code>.app</code> bundle.</li>
+                    <li>Drag <strong>VolleyRecon.app</strong> to your <strong>Applications</strong> folder (optional but recommended).</li>
+                </ol>
+            </section>
+
+            <!-- Step 2 – Gatekeeper warning -->
+            <section class="section">
+                <h2>Step 2 – Bypass the "Unidentified Developer" Warning</h2>
+                <p>
+                    When you double-click VolleyRecon for the first time, macOS Gatekeeper may display
+                    a message such as:
+                </p>
+                <div class="highlight-box">
+                    <p>
+                        <em>"VolleyRecon cannot be opened because it is from an unidentified developer."</em>
+                    </p>
+                </div>
+                <p>This is expected for apps not yet listed in the App Store. Use one of the two methods below to open the app anyway.</p>
+
+                <h3>Method A – Right-click / Control-click (easiest)</h3>
+                <ol>
+                    <li>In <strong>Finder</strong>, locate <strong>VolleyRecon.app</strong>.</li>
+                    <li><strong>Right-click</strong> (or <strong>Control-click</strong>) on the app icon.</li>
+                    <li>Choose <strong>Open</strong> from the context menu.</li>
+                    <li>A dialog will appear asking whether you are sure — click <strong>Open</strong> again.</li>
+                    <li>The app will launch and macOS will remember your choice for future launches.</li>
+                </ol>
+
+                <h3>Method B – System Settings (macOS 13 Ventura and later)</h3>
+                <ol>
+                    <li>Try to open the app by double-clicking it. The warning dialog will appear — click <strong>Done</strong> to dismiss it.</li>
+                    <li>Open <strong>System Settings</strong> → <strong>Privacy &amp; Security</strong>.</li>
+                    <li>Scroll down to the <strong>Security</strong> section. You should see a message such as
+                        <em>"VolleyRecon was blocked from use because it is not from an identified developer."</em>
+                    </li>
+                    <li>Click <strong>Open Anyway</strong>.</li>
+                    <li>Enter your macOS password if prompted, then click <strong>Open Anyway</strong> once more in the confirmation dialog.</li>
+                </ol>
+
+                <h3>Method B – System Preferences (macOS 12 Monterey and earlier)</h3>
+                <ol>
+                    <li>Try to open the app. The warning dialog will appear — click <strong>OK</strong> to dismiss it.</li>
+                    <li>Open <strong>System Preferences</strong> → <strong>Security &amp; Privacy</strong> → <strong>General</strong> tab.</li>
+                    <li>Near the bottom you will see a message about VolleyRecon being blocked. Click <strong>Open Anyway</strong>.</li>
+                    <li>Enter your macOS password if prompted, then click <strong>Open Anyway</strong> in the confirmation dialog.</li>
+                </ol>
+            </section>
+
+            <!-- Step 3 – First launch -->
+            <section class="section">
+                <h2>Step 3 – First Launch</h2>
+                <p>
+                    After completing the steps above, VolleyRecon will open normally.
+                    On all subsequent launches you can simply double-click the app — no extra steps are needed.
+                </p>
+                <div class="highlight-box">
+                    <p><strong>Tip:</strong> If you see a dialog asking whether the app can access files in your
+                    Downloads or Documents folder, click <strong>Allow</strong> so that VolleyRecon can open
+                    your <code>.dvw</code> scouting files and video files.</p>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <h2>Why is this necessary?</h2>
+                <p>
+                    macOS requires apps to be signed with an Apple Developer certificate and notarized by Apple
+                    before they can be opened without warnings. This process is tied to a paid Apple Developer Program
+                    membership. VolleyRecon will be submitted to the App Store in the future, which will remove
+                    the need for these extra steps.
+                </p>
+                <p>
+                    The app itself is safe — it processes all data locally on your device and does not send
+                    any information to external servers.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Florian Krage-Brewitz. All rights reserved.</p>
+            <p class="small">Last updated: March 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
