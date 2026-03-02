@@ -1,0 +1,35 @@
+[3SCOUT]
+Fileformat;2;
+[3MATCH]
+;;1;2026-01-01;VolleyRecon Sample Match;Indoor;Berlin;Referee One;Referee Two;1;0;3;0;Set1 - Sample;Set2 - Sample;Set3 - Sample;;;
+[3SET]
+1;25;18;0;0;0;0;*;
+2;25;20;0;0;0;0;*;
+3;25;15;0;0;0;0;*;
+[3TEAMS]
+Home Team;
+Visiting Team;
+[3PLAYERS-H]
+1;1;Mia Müller;L;
+2;2;Jana Schmidt;O;
+3;3;Sara Bauer;S;
+4;4;Lea Fischer;M;
+5;5;Anna Weber;M;
+6;6;Clara Koch;O;
+[3PLAYERS-V]
+1;1;Emma Schulz;L;
+2;2;Lisa Wagner;O;
+3;3;Sophia Becker;S;
+4;4;Hannah Stein;M;
+5;5;Lena Wolf;M;
+6;6;Marie Hofmann;O;
+[3ATTACKCOMBINATION]
+[3SETTERCALL]
+[3WINNINGSYMBOLS]
+[3RALLY]
+*1H2SB+~;
+*1V3RE-~;
+*1H6AF#~;
+*1H2SB+~;
+*1V5ME/~;
+*1H6AF#~;
